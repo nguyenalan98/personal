@@ -21,7 +21,7 @@ border-top-right-radius: 10px;
     display: block;
     margin: 0 auto;
     width: 92%;
-    padding-top: 10px;
+    padding-top: 2vh;
     border-bottom: 3px solid dimgrey;
 }
 
@@ -51,24 +51,25 @@ padding-top: 2vh;
   padding-top:10px;
   padding-bottom:10px;
   font-family: 'Patrick Hand', cursive;
-  font-size:4vh;
+  font-size:3.5vh;
   margin-left:5%;
   background-image: url("tiny_grid.png");
   background-size:repeat;
 }
 
 #about img{
-  width:30vh;
-  height:30vh;
-  margin-top:7vh;
+  width:28vh;
+  height:28vh;
+  margin-top:3.5vh;
   border-radius:10px;
   margin-right:2.5%;
   border:5px solid black;
-  margin-left:7.5%;
+  margin-left:4.5%;
 }
 
 #about .p{
   font-family: 'Patrick Hand', cursive;
+  margin-right: 3%;
 }
 
 #projects {
@@ -124,7 +125,8 @@ padding-top: 2vh;
 .portfolio:after {
     content: "";
     display: block;
-    margin: 0 auto;
+    margin:0 auto;
+    margin-top: 8vh;
     width: 92%;
     padding-top: 20px;
     border-bottom: 3px solid dimgrey;
