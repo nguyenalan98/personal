@@ -1,0 +1,248 @@
+body{
+  background-color: rgb(32, 32, 32);
+  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+  background-size: 10px 10px, 10px 10px, 10px 5px;
+  background-position: 0px 0px, 5px 5px, 0px 0px;
+}
+
+.navbar{
+background-color: white;
+width:90%;
+position: relative;
+border-bottom:2px dashed grey;
+margin-left:5%;
+margin-top:5%;
+border-top-left-radius:10px;
+border-top-right-radius: 10px;
+}
+
+
+#title {
+color:white;
+text-align:center;
+width:100%;
+font-family: 'Marck Script', cursive;
+font-weight:800;
+}
+
+.navbar h1 {
+color:black ;
+text-align:center;
+font-weight: 600;
+font-size:5.5vh;
+margin-top: 0vh;
+padding-top: 2vh;
+}
+
+#about{
+  width:90%;
+  display:flex;
+  flex-direction: row;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-bottom: dimgrey dashed 2px;
+  font-family: 'Patrick Hand', cursive;
+  font-size:4vh;
+  margin-left:5%;
+  background-color:white;
+}
+
+#about img{
+  width:30vh;
+  height:30vh;
+  margin-top:7vh;
+  border-radius:10px;
+  margin-right:3vh;
+  border:5px solid black;
+  margin-left:2vh
+}
+
+#about .p{
+  width:75%;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#projects {
+  height: 60%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  min-width: 250px;
+  margin-bottom:25px;
+}
+
+.project h2 {
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3vh;
+}
+
+.project img {
+  width: 100%;
+  height: 55%;
+  border:2px black solid;
+}
+
+.pic:hover{
+  opacity:0.8;
+}
+
+.project_info {
+  width: 90%;
+  line-height: 1.5em;
+  margin-left:25px;
+  font-family: 'Patrick Hand', cursive;
+  margin-bottom:0px;
+}
+
+.portfolio {
+  margin-left:5%;
+  height: 95%;
+  border-bottom: dimgrey dashed 2px;
+  width:90%;
+  padding-bottom:5vh;
+  padding-top:2vh;
+  background-color: white;
+  margin-bottom:0px;
+}
+
+.portfolio h1{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size:5vh;
+  margin-bottom:10px;
+}
+
+.skill_display{
+  width:90%;
+  margin-left:5%;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom:0px;
+  padding-top:20px;
+  border-bottom: dimgrey dashed 2px;
+}
+
+.skill_display h1{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size:5vh;
+  margin-bottom:10px;
+}
+
+.skill_display p{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.skill{
+  float: left;
+  width: 20vh;
+  height:20vh;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom:20vh;
+  margin-right:10px;
+  margin-left:10px;
+}
+
+.containerTab {
+  color: black;
+  background-color:white;
+  width:90%;
+  height:30vh;
+  margin-left:5%;
+  display:block;
+  margin-top: 40vh;
+  margin-bottom:15vh;
+  border:2px darkgrey solid;
+}
+
+.containerTab h2{
+  text-align: center;
+  width:100%;
+}
+
+.containerTab p{
+  width:70%;
+  text-align:left;
+  margin-left: 15%;
+}
+
+/* Clear floats after the columns */
+.skill_display:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  color: red;
+  font-size: 35px;
+  cursor: pointer;
+  margin-left: 5vh;
+}
+
+.hidden{
+  display:none;
+}
+
+.skills{
+  margin-left:18vh;
+}
+
+#java{
+  background-image: url("java.png");
+  background-size:contain;
+}
+
+#sql{
+  background-image: url("sql.png");
+  background-size:contain;
+}
+
+#css{
+  background-image: url("css.png");
+  background-size:contain;
+}
+
+#python{
+  background-image: url("python.png");
+  background-size:contain;
+}
+
+#javascript{
+  background-image: url("jscript.png");
+  background-size:contain;
+}
+
+#html{
+  background-image: url("html.png");
+  background-size:contain;
+}
+
+.code{
+  width:90%;
+  margin-left:5%;
+  height:15vh;
+  background-color: white;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom:7vh;
+  text-align: center;
+}
+
+.code img{
+  width:25%;
+}
